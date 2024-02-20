@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat&family=Montserrat+Alternates:wght@700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          tailwind.config = {
+      theme: {
+        fontFamily: {
+          'sans': ['ui-sans-serif', 'system-ui'],
+          'serif': ['ui-serif', 'Georgia'],
+          'mono': ['ui-monospace', 'SFMono-Regular'],
+          'Lora':['serif'],
+          'Cursive':['Cedarville Cursive'],
+          
+        }
+      }
+    }
+        </script>
+    <title>Document</title>
+</head>
+<ul class="flex space-x-6 font-bold text-black bg-[#FDDC5C] h-[24px] py-auto px-3">
+    <li><a href="/index.html"><p>Home</p></a></li>
+    <li><a href="/index2.html"><p>About</p></a></li>
+    <li><a href="/index3.html"><p>Services</p></a></li>
+    <li><a href="/index4.html"><p>Booking</p></a></li>
+  </ul>
+<body class="bg-cover" style="background-image: url(/pics/biss\ logo.jpg);">
+    <div class="sticky right-0 top-0 h-[10vh]">
+        <div class="flex justify-between">
+          <h3 class="font-bold pt-3 px-3">Booking</h3>
+          <img class="h-[50px] w-[50px] rounded-full" src="/pics/biss logo 3.jpg" alt="">
+        </div>
+    </div>  
+    <div class="flex justify-center my-12">
+        <div class="items-center text-center border-[#FDDC5C] border-4 bg-purple-100 w-[350px] font-bold">
+            <form class="items-center" action="">
+                <div>
+                    <label  for="">Name</label>
+                    <input class="border-4 border-purple-200 pt-2" type="text">
+                </div>
+                <div>
+                    <label for="">Email</label>
+                    
+                    <input class="border-4 border-purple-200 pt-2" type="text" placeholder="Email Address">
+                </div>
+                  <div>
+                  <label for="">Phone Numer</label>
+                  <input class="border-4 border-purple-200 pt-2" type="email">
+                  </div>
+                <div>
+                    <label for="">Time</label>
+                    <input class="border-4 border-purple-200 pt-2" type="time" min="" max="">
+                </div>
+                <div>
+                    <label for="">Stylist</label>
+                    <br>
+                    <label for="">Stylist Julie</label>
+                    <input type="checkbox">
+                    <label for="">Stylist Melanie</label>
+                    <input type="checkbox">
+                    <label for="">Stylist Steve</label>
+                    <input type="checkbox">
+                    <label for="">Stylist John</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                   <label for="">Barber</label>
+                   <br>
+                   <label for="">Mike</label> 
+                   <input name="ABG" type="radio">
+                   <label for="">Jane</label>
+                   <input name="ABG" type="radio">
+                   <label for="">Chris</label>
+                   <input name="ABG" type="radio">
+                   <label for="">Fatima</label>
+                   <input name="ABG" type="radio">
+                </div>
+                <div>
+                    <label for="">Services Needed</label>
+                    <br>
+                    <select class="rounded-full" name="" id="">
+                        <option value="">Hair cut</option>
+                        <option value="">Facials</option>
+                        <option value="">Braiding</option>
+                        <option value="">Extension fixing</option>
+                        <option value="">Nails</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Day and Date</label>
+                    <br>
+                    <input type="date">
+                </div>
+                
+                <div>
+                    <label for="">Upload Image of style needed</label>
+                    <input type="file">
+                </div>
+                <button class="border-4 border-purple-200 pt-2 px-2">submit</button>
+            </form>
+        </div>  
+    </div>
+    <div class="flex justify-between px-12 border-4 border-red-300" style="background-color: #FDDC5C;">
+        <div class="pt-6">
+          <img class="h-[70px] w-[70px] rounded-full" src="/pics/biss logo 3.jpg" alt="">
+          <ul class="flex space-x-3 pt-3">
+            <li><img class="h-[20px] w-[20px] rounded-full" src="/pics/facebook.jpeg" alt=""></li>
+            <li><img class="h-[20px] w-[20px] rounded-full" src="/pics/instagram.jpeg" alt=""></li>
+            <li><img class="h-[20px] w-[20px] rounded-full" src="/pics/twitter.jpeg" alt=""></li>
+          </ul>
+        </div>
+        <div class="pt-6 text-center">
+          <h2 class="font-bold">Location & Hours</h2>
+          <p>10, Magodo Isheri Road, Magodo Lagos State</p>
+          <p>Monday - Friday      8am - 9pm</p>
+          <p>Saturday - Sunday     10am - 10pm</p>
+        </div>
+        <div class="pt-6 pb-3 font-bold text-center">
+          <ul>
+            <li>shop products</li>
+            <li>stylist</li>
+            <li>services</li>
+            <li>contact</li>
+            <li>booking</li>
+          </ul>
+        </div>
+      </div>
+    
+</body>
+</html>
